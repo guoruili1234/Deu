@@ -1,0 +1,212 @@
+@charset "UTF-8";
+@import url("reset.css");
+body {
+  font-family: "微软雅黑";
+  font-size: 16px; }
+
+.logo {
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 2px;
+  position: relative; }
+  .logo img {
+    width: 110px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 15px; }
+
+.nav {
+  width: 700px;
+  height: 48px;
+  position: absolute;
+  right: 10px;
+  top: 15px; }
+  .nav li {
+    width: 77px;
+    float: left;
+    list-style: none;
+    line-height: 48px;
+    float: left;
+    text-align: center;
+    margin-left: 15px;
+    position: relative; }
+    .nav li a {
+      color: #000;
+      display: block;
+      width: 77px;
+      height: 30px;
+      position: relative;
+      z-index: 111; }
+    .nav li span {
+      position: absolute;
+      top: 20px;
+      left: 0px;
+      width: 77px;
+      text-align: center;
+      color: #ccc;
+      display: none; }
+
+.warp {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 3px; }
+  .warp h3 {
+    width: 1000px;
+    height: 50px;
+    border-bottom: 1px solid #ccc; }
+    .warp h3 p {
+      width: 180px;
+      height: 50px; }
+      .warp h3 p a {
+        display: inline-block;
+        width: 90px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: #fff;
+        background: #5ea51b; }
+      .warp h3 p .gai {
+        background: #8bbf5d; }
+  .warp .zhong {
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    margin-top: 9px; }
+    .warp .zhong .z_left {
+      width: 650px;
+      float: left; }
+      .warp .zhong .z_left .duan {
+        width: 100%;
+        height: 200px;
+        border-bottom: 1px solid #cccccc; }
+        .warp .zhong .z_left .duan dl {
+          width: 650px;
+          padding-top: 30px;
+          height: 208px; }
+          .warp .zhong .z_left .duan dl dt {
+            float: left;
+            width: 170px; }
+          .warp .zhong .z_left .duan dl dd {
+            float: right;
+            width: 470px; }
+            .warp .zhong .z_left .duan dl dd h6 {
+              font-weight: 600; }
+            .warp .zhong .z_left .duan dl dd p {
+              font-size: 12px;
+              line-height: 23px;
+              margin: 12px 0px; }
+            .warp .zhong .z_left .duan dl dd h5 {
+              font-size: 12px; }
+              .warp .zhong .z_left .duan dl dd h5 i {
+                font-style: normal;
+                color: #759b08; }
+              .warp .zhong .z_left .duan dl dd h5 span {
+                float: right; }
+    .warp .zhong .z_center {
+      float: left;
+      margin-left: 16px; }
+    .warp .zhong .z_right {
+      width: 300px;
+      float: left; }
+      .warp .zhong .z_right h5 {
+        width: 300px;
+        height: 30px;
+        line-height: 30px;
+        margin-left: 13px; }
+        .warp .zhong .z_right h5 span {
+          float: left;
+          margin-right: 8px; }
+      .warp .zhong .z_right .kuai {
+        width: 100%;
+        height: 150px;
+        clear: both; }
+        .warp .zhong .z_right .kuai a {
+          display: block;
+          float: left;
+          width: 135px;
+          height: 35px;
+          border: 1px solid #ccc;
+          margin-left: 11px;
+          text-align: center;
+          line-height: 35px;
+          margin-top: 10px;
+          -webkit-transition: all 1s;
+          -moz-transition: all 1s;
+          -o-transition: all 1s;
+          transition: all 1s; }
+        .warp .zhong .z_right .kuai a:hover {
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          transform: rotate(360deg); }
+      .warp .zhong .z_right .mo {
+        width: 300px;
+        margin-left: 20px; }
+        .warp .zhong .z_right .mo h6 {
+          width: 100%;
+          font-size: 16px;
+          height: 30px;
+          line-height: 30px;
+          font-weight: 600;
+          position: relative;
+          padding-left: 80px; }
+          .warp .zhong .z_right .mo h6 small {
+            position: absolute;
+            left: 0px;
+            top: 4px; }
+          .warp .zhong .z_right .mo h6 em {
+            color: #37ccca;
+            font-style: normal; }
+        .warp .zhong .z_right .mo ol {
+          width: 300px;
+          height: 270px; }
+          .warp .zhong .z_right .mo ol li {
+            list-style: none;
+            height: 30px;
+            line-height: 30px;
+            position: relative;
+            padding-left: 30px;
+            font-size: 12px;
+            border-bottom: 1px #ccc dashed; }
+            .warp .zhong .z_right .mo ol li .huan {
+              background: #37ccca; }
+            .warp .zhong .z_right .mo ol li span {
+              position: absolute;
+              left: 3px;
+              top: 9px;
+              width: 20px;
+              height: 15px;
+              font-size: 12px;
+              line-height: 15px;
+              text-align: center;
+              background: #545454;
+              color: #fff;
+              font-style: normal;
+              border-radius: 4px; }
+        .warp .zhong .z_right .mo ul {
+          width: 300px;
+          height: 270px; }
+          .warp .zhong .z_right .mo ul li {
+            list-style: none;
+            height: 30px;
+            line-height: 30px;
+            position: relative;
+            padding-left: 2px;
+            font-size: 12px;
+            border-bottom: 1px #ccc dashed; }
+            .warp .zhong .z_right .mo ul li span {
+              float: left;
+              padding-right: 3px; }
+
+.footer {
+  width: 1000px;
+  height: 30px;
+  margin: 20px auto;
+  background: #f1f0ee;
+  text-align: center;
+  font-size: 12px;
+  line-height: 30px; }
+
+/*# sourceMappingURL=wenzhang.css.map */

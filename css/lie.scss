@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@import url("reset.css");
+
+
+
+
+body{
+	font-family:"微软雅黑";
+	font-size:16px;
+	
+}
+
+
+.logo{
+		width:1000px;
+		height:100px;
+		margin:0 auto;
+		margin-top:2px;
+		position:relative;
+
+		img{
+			width:110px;
+			height:50px;
+			position:absolute;
+			left:20px;
+			top:15px;
+		}
+	}
+
+	.nav{
+		width:700px;
+		height:48px;
+		position:absolute;
+		right:10px;
+		top:15px;
+		
+
+
+		li{
+			width:77px;
+			float:left;
+			list-style:none;
+			line-height:48px;
+			float:left;
+			text-align:center;
+			margin-left:15px;
+			position:relative;
+
+
+			a{
+				color:#000;
+				display:block;
+				width:77px;
+				height:30px;
+				position:relative;
+				z-index:111;
+
+			}
+			span{
+				
+				position:absolute;
+				top:20px;
+				left:0px;
+				width:77px;
+				text-align:center;
+				color:#ccc;
+			   display:none; 
+			}
+			
+			
+
+		}
+		
+
+	}
+
+	.warp{
+		width:1000px;
+		height:auto;
+		margin:0 auto;
+		margin-top:3px;
+		overflow:hidden;
+
+          h3{
+			width:1000px;
+			height:50px;
+			border-bottom:1px solid #ccc;
+			p{
+				width:180px;
+				height:50px;
+
+				a{
+					display:block;
+					width:90px;
+					height:50px;
+					float:left;
+					line-height:50px;
+					text-align:center;
+					color:#fff;
+					background:#5ea51b;
+				}
+				.gai{
+					background:#8bbf5d;
+				}
+			}
+		}
+
+		.zhong{
+			width:1000px;
+			height:auto;
+
+			.z_left{
+				width:650px;
+				height:auto;
+				float:left;
+
+				h4{
+					height:40px;
+					line-height:40px;
+					text-align:center;
+
+				}
+
+				h6{
+					width:100%;
+					height:30px;
+					line-height:30px;
+					border:1px dashed #ccc;
+					text-align:center;
+					font-size:12px;
+				}
+				.de{
+					width:100%;
+					height:auto;
+
+					p{
+						width:100%;
+						height:30px;
+						line-height:30px;
+					}
+
+				}
+				.duo{
+					width:100%;
+					height:260px;
+					border:1px solid #ccc;
+					padding-top:12px;
+
+
+					dl{
+						width:114px;
+						height:125px;
+						float:left;
+						margin-left:9px;
+
+						dt{
+							width:114px;
+						    height:100px;
+
+						}
+						dd{
+							text-align:center;
+							line-height:20px;
+							font-size:12px;
+							a{
+								color:#000;
+							}
+						}
+					}
+					
+
+				}
+
+			}
+			.z_center{
+				float:left;
+		        margin-left:16px;
+			}
+			z_right{
+				
+		        width:300px;
+			     float:left;
+			}
+		}
+
+
+	}	
